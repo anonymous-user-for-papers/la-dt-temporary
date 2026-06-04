@@ -1,0 +1,9 @@
+# Scalability: GAT Performance vs Network Size
+
+| Num Nodes | F1 Score | Attr. Acc. (%) | Inference (ms) | Speedup |
+|---|---|---|---|---|
+| 5 | 0.949 | 84.0% | 1.43 | 1.00x |
+| 10 | 0.964 | 66.4% | 2.17 | 0.91x |
+| 20 | 0.985 | 65.8% | 3.70 | 0.49x |
+| 50 | 0.908 | 57.2% | 9.49 | 0.21x |
+| 100 | 0.625 | 79.4% | 29.88 | 0.11x |
